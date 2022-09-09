@@ -13,8 +13,8 @@ Example Commands:
 1. `wcat filename` => displays content of the file in the terminal 
 2. `wcat filename1 filename2 filename3...` => displays content of all files in the terminal(contactenated form) in the given order.
 3. `wcat -s filename` => convert big line breaks into a singular file 
-4. `wcat -n filename` => give numbering to all the lines 
-5. `wcat -b filename` => give numbering to non-empty lines 
+4. `wcat -n filename` => give numbering to non-empty lines 
+5. `wcat -b filename` => give numbering to all the lines 
 6. `wcat -s filename > filename2` =>get the file content of filename remove large spaces and save the output in filename2
 
 We can mix and match the options.
